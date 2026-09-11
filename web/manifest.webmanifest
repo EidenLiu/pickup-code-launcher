@@ -1,0 +1,34 @@
+{
+  "name": "取件直达",
+  "short_name": "取件直达",
+  "description": "菜鸟、淘宝和拼多多身份码快捷入口",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f8f4",
+  "theme_color": "#f7f8f4",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "菜鸟身份码",
+      "short_name": "菜鸟",
+      "url": "cainiao://desktop/station_code"
+    },
+    {
+      "name": "淘宝身份码",
+      "short_name": "淘宝",
+      "url": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fpages-fast.m.taobao.com%2Fwow%2Fz%2Funiapp%2F1100333%2Flast-mile-fe%2Fm-end-school-tab%2Fhome"
+    },
+    {
+      "name": "拼多多身份码",
+      "short_name": "拼多多",
+      "url": "pinduoduo://com.xunmeng.pinduoduo/mdkd/package?tab=ID_CODE&entry_source=11"
+    }
+  ]
+}

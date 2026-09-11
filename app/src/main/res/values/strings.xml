@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">快递取件2.0</string>
+    <string name="shortcut_cainiao">菜鸟身份码</string>
+    <string name="shortcut_taobao">淘宝身份码</string>
+    <string name="shortcut_pinduoduo">拼多多身份码</string>
+    <string name="shortcut_taobao_pending">淘宝待取快递</string>
+    <string name="shortcut_pinduoduo_pending">拼多多待取快递</string>
+    <string name="widget_description">菜鸟、淘宝、拼多多、京东和小红书入口</string>
+    <string name="widget_cainiao">菜鸟</string>
+    <string name="widget_taobao">淘宝</string>
+    <string name="widget_pinduoduo">拼多多</string>
+    <string name="open_cainiao">打开菜鸟身份码</string>
+    <string name="open_taobao">打开淘宝身份码</string>
+    <string name="open_pinduoduo">打开拼多多身份码</string>
+    <string name="shortcut_jd">京东待取快递</string>
+    <string name="widget_jd">京东</string>
+    <string name="open_jd">打开京东待取快递</string>
+    <string name="shortcut_xhs">小红书待取快递</string>
+    <string name="widget_xhs">小红书</string>
+    <string name="open_xhs">打开小红书待取快递</string>
+</resources>

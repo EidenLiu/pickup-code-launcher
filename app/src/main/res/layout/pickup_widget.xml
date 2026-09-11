@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_background"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/widget_cainiao"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="4dp"
+        android:layout_weight="1"
+        android:background="@drawable/widget_cainiao"
+        android:contentDescription="@string/open_cainiao"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/widget_cainiao"
+        android:textColor="#147848"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/widget_taobao"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="4dp"
+        android:layout_weight="1"
+        android:background="@drawable/widget_taobao"
+        android:contentDescription="@string/open_taobao"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/widget_taobao"
+        android:textColor="#C24B12"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/widget_pinduoduo"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="4dp"
+        android:layout_weight="1"
+        android:background="@drawable/widget_pinduoduo"
+        android:contentDescription="@string/open_pinduoduo"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/widget_pinduoduo"
+        android:textColor="#BE233C"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/widget_jd"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="4dp"
+        android:layout_weight="1"
+        android:background="@drawable/widget_jd"
+        android:contentDescription="@string/open_jd"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/widget_jd"
+        android:textColor="#B45D0D"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/widget_xhs"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="4dp"
+        android:layout_weight="1"
+        android:background="@drawable/widget_xhs"
+        android:contentDescription="@string/open_xhs"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/widget_xhs"
+        android:textColor="#CC3F67"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
