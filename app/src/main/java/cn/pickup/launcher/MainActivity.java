@@ -77,7 +77,7 @@ public final class MainActivity extends Activity {
                 ScrollView.LayoutParams.WRAP_CONTENT
         ));
 
-        TextView title = text("快递取件2.0", 28, TEXT_PRIMARY, Typeface.BOLD);
+        TextView title = text("快递取件2.1", 28, TEXT_PRIMARY, Typeface.BOLD);
         LinearLayout.LayoutParams titleParams = verticalParams(0);
         title.setLayoutParams(titleParams);
         root.addView(title);
@@ -104,7 +104,7 @@ public final class MainActivity extends Activity {
         root.addView(serviceRow(
                 Destination.TAOBAO,
                 "淘宝取件",
-                "打开淘宝末端取件身份码",
+                "打开淘宝取件码页面",
                 Color.rgb(255, 240, 227),
                 Color.rgb(194, 75, 18)
         ));

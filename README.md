@@ -1,4 +1,4 @@
-# 快递取件2.0
+# 快递取件2.1
 
 一个用于快速打开常用快递取件码和电商待取列表的 Android 工具。
 
@@ -59,6 +59,6 @@ keytool -genkeypair -v -keystore release-keystore.jks -keyalg RSA -keysize 2048 
 
 本项目使用 MIT License。
 
-当前版本：2.0.0
+当前版本：2.1.0
 
-最后核对日期：2026-09-11。
+最后核对日期：2026-09-13。
